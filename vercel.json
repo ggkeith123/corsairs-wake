@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "*.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/game", "dest": "/game.html" },
+    { "src": "/play", "dest": "/game.html" },
+    { "src": "/", "dest": "/index.html" }
+  ]
+}
